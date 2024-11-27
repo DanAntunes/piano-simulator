@@ -1,5 +1,6 @@
 const pianoKeys = document.querySelectorAll(".piano-keys .key");
 const volumeSlider = document.querySelector(".volume-slider input");
+const keysCheck = document.querySelector(".keys-check input");
 
 const keyMapping = [];
 let globalVolume = 0.5; 
@@ -32,3 +33,9 @@ document.addEventListener("keydown", (e) => {
     playTune(e.key);
   }
 });
+
+const showHideKeys = () =>{
+  // biome-ignore lint/complexity/noForEach: <explanation>
+  pianoKeys.forEach(key => key.classList.toggle("hide"));
+}
+keysCheck.addEventListener("click", showHideKeys);
