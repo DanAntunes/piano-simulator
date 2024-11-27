@@ -1,0 +1,124 @@
+@media (max-width: 575px) {
+  body {
+    background-color: rgb(44, 44, 44);
+  }
+  .container{
+    transform: rotate(-90deg); /* Rotacionar o container */
+    max-width: 576px;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .piano-keys{
+   max-width: 576px;
+   display: flex;
+   justify-content: center;
+   margin-left: -35px;
+  }
+  .piano-keys .key.white {
+    margin-top: 15px;
+    width: 240px; 
+    height: 200px;
+  }
+  .piano-keys .key.black {
+    width: 144px;
+    height: 140px;
+    margin: 15px -20px;
+  }
+
+  header{  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70px;
+  }
+
+  header h2 {
+    align-self: flex-start; /* Manter o título ao lado oposto */
+    margin-top: 1px;
+    font-size: 1.5rem;
+  }
+
+  .keys-check {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+
+  .keys-check span {
+    margin-right: 10px;
+  }
+
+  .volume-slider {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .volume-slider span {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) { 
+  body {
+    background-color: rgb(44, 44, 44);
+  }
+  .container{
+    transform: rotate(-90deg); /* Rotacionar o container */
+    max-width: 768px;
+    height: 330px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .piano-keys{
+   max-width: 768px;
+   display: flex;
+   justify-content: center;
+   margin-left: -35px;
+  }
+  .piano-keys .key.white {
+    margin-top: 15px;
+    width: 340px; 
+    height: 230px;
+  }
+  .piano-keys .key.black {
+    width: 174px;
+    height: 150px;
+    margin: 15px -20px;
+  }
+
+  header{  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 70px;
+  }
+
+  header h2 {
+    align-self: flex-start; /* Manter o título ao lado oposto */
+    margin-top: 1px;
+    font-size: 1.5rem;
+  }
+
+  .keys-check {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+
+  .keys-check span {
+    margin-right: 10px;
+  }
+
+  .volume-slider {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .volume-slider span {
+    margin-right: 10px;
+  }
+}
