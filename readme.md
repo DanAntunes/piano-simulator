@@ -98,7 +98,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
-**Divirta-se tocando música! 🎹**
-
-Para mais informações, entre em contato: [danilojantunes@gmail.com](mailto:danilojantunes@gmail.com).
 
