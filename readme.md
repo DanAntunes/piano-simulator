@@ -1,101 +1,92 @@
-# Piano Virtual
+# 🎹 Piano Virtual - Toque Músicas Direto no Seu Navegador!
 
-Um aplicativo web interativo que simula um piano virtual, permitindo que os usuários toquem melodias diretamente do navegador.
+[![GitHub license](https://img.shields.io/github/license/DanAntunes/piano-simulator?style=flat-square)](https://github.com/DanAntunes/piano-simulator/blob/main/LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## Visão Geral
+Um piano digital interativo que transforma seu navegador em um instrumento musical! Crie melodias incríveis usando teclado ou mouse, ajuste o volume e personalize sua experiência. 🎶
 
-O **Piano Virtual** foi projetado para oferecer uma experiência musical acessível e divertida. Ele é responsivo e funciona bem em dispositivos móveis e desktop. Os usuários podem controlar o volume, alternar a exibição das teclas e tocar o piano usando o teclado ou o mouse.
+![Preview do Piano](https://via.placeholder.com/800x400.png?text=Piano+Virtual+Preview+🎹)  
+*(Adicione uma imagem ou GIF do projeto em ação)*
 
-## Recursos
+## ✨ Destaques
+- 🎮 Controle por **teclado** ou **mouse**
+- 🔊 Controle deslizante de volume integrado
+- 🎨 Design moderno e responsivo
+- 🔄 Alternar visibilidade das legendas
+- 📱 Compatível com dispositivos móveis
 
-- **Teclas interativas:** Clique ou pressione as teclas no teclado para tocar.
-- **Controle de volume:** Ajuste o volume diretamente na interface.
-- **Exibição personalizável:** Escolha ocultar ou exibir as legendas das teclas.
-- **Design responsivo:** Experiência otimizada para diferentes tamanhos de tela.
+## 🚀 Começando
 
-## Tecnologias Utilizadas
+### Pré-requisitos
+- Navegador moderno (Chrome, Firefox, Safari)
+- Conexão com internet (para fontes externas)
 
-- **HTML5:** Estrutura semântica do aplicativo.
-- **CSS3:** Estilização e responsividade (incluindo media queries).
-- **JavaScript:** Funcionalidades interativas, como reprodução de áudio e eventos de teclado.
-- **Normalize.css:** Garantia de consistência de estilos entre navegadores.
-- **Google Fonts:** Tipografia estilosa com a fonte Poppins.
+### Instalação Rápida
+```bash
+# Clone o repositório
+git clone https://github.com/DanAntunes/piano-simulator.git
 
-## Como Usar
+# Acesse a pasta do projeto
+cd piano-simulator
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/DanAntunes/piano-simulator
-   ```
-
-2. **Acesse o diretório do projeto:**
-   ```bash
-   cd piano-simulator
-   ```
-
-3. **Abra o arquivo `index.html` em seu navegador.**
-
-## Estrutura do Projeto
-
-```
-├── index.html
-├── src
-│   ├── assets
-│   │   ├── css
-│   │   │   ├── main.css
-│   │   │   └── media-querie.css
-│   │   ├── scripts
-│   │   │   └── script.js
-│   │   └── tunes
-│   │       ├── a.wav
-│   │       ├── w.wav
-│   │       └── ...
-│
-└── README.md
+# Abra no navegador
+start index.html  # Windows
+open index.html   # macOS
+xdg-open index.html  # Linux
 ```
 
-## Controles
+## 🎛️ Como Usar
+| Funcionalidade       | Como Acessar                          |
+|----------------------|---------------------------------------|
+| Tocar notas          | Clique nas teclas ou use o teclado    |
+| Ajustar volume       | Controle deslizante na interface      |
+| Alternar legendas    | Botão "Mostrar Teclas"                |
+| Modo Mobile          | Gire o dispositivo para melhor experiência |
 
-- **Volume:** Use o controle deslizante para ajustar o volume do som.
-- **Exibição das Teclas:** Ative/desative a visualização das legendas das teclas com o botão de alternância.
-- **Teclas do Teclado:**
-  - Teclas brancas: `A, S, D, T, Y, U, K, L, ;`
-  - Teclas pretas: `W, E, F, G, H, J, O, P`
+### 🎹 Mapeamento de Teclas
+| Teclas Brancas       | Teclas Pretas         |
+|----------------------|-----------------------|
+| A S D F G H J K L    | W E T Y U O P         |
+| C D E F G A B C      | C# D# F# G# A# C# D# |
 
-## Responsividade
+## 🛠️ Tecnologias
+![Tech Stack](https://skillicons.dev/icons?i=html,css,js)  
+- **Normalize.css** - Padronização de estilos
+- **Google Fonts** - Fonte Poppins
+- **Web Audio API** - Processamento de sons
 
-O design foi otimizado para diferentes dispositivos:
+## 📂 Estrutura do Projeto
+```bash
+piano-simulator/
+├── index.html            # Página principal
+├── src/
+│   ├── assets/
+│   │   ├── css/         # Estilos e media queries
+│   │   ├── scripts/     # Lógica do piano
+│   │   └── tunes/       # Arquivos de áudio .wav
+└── README.md            # Você está aqui :)
+```
 
-- **Desktop:** Interface padrão com layout horizontal.
-- **Mobile:** Layout rotacionado e ajustado para telas menores.
+## 🌟 Recursos Futuros
+- [ ] Seleção de diferentes instrumentos
+- [ ] Gravação e reprodução de melodias
+- [ ] Modo aula com músicas guiadas
+- [ ] Compartilhamento de composições
 
-## Demonstração
+## 🤝 Contribuindo
+Sua ajuda é bem-vinda! Siga estes passos:
+1. Faça um Fork do projeto
+2. Crie sua Branch (`git checkout -b feature/IncrivelFeature`)
+3. Commit suas Mudanças (`git commit -m 'Adicionando recurso incrível'`)
+4. Push para a Branch (`git push origin feature/IncrivelFeature`)
+5. Abra um Pull Request
 
-Insira aqui um link para uma demonstração ao vivo ou um gif do aplicativo em ação.
-
-## Contribuição
-
-Contribuições são bem-vindas! Siga estas etapas:
-
-1. Faça um fork do repositório.
-2. Crie uma nova branch:
-   ```bash
-   git checkout -b feature/sua-feature
-   ```
-3. Commit suas alterações:
-   ```bash
-   git commit -m 'Adicionei um novo recurso'
-   ```
-4. Faça o push para a branch:
-   ```bash
-   git push origin feature/sua-feature
-   ```
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+## 📄 Licença
+Distribuído sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais informações.
 
 ---
 
-
+Feito com ❤️ por [Dan Antunes](https://github.com/DanAntunes)  
+🎶 Deixe sua criatividade fluir e crie algo incrível!
