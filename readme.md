@@ -7,8 +7,7 @@
 
 Um piano digital interativo que transforma seu navegador em um instrumento musical! Crie melodias incríveis usando teclado ou mouse, ajuste o volume e personalize sua experiência. 🎶
 
-![Preview do Piano](https://via.placeholder.com/800x400.png?text=Piano+Virtual+Preview+🎹)  
-*(Adicione uma imagem ou GIF do projeto em ação)*
+![Preview do Piano](./src/assets/image/demo/screenshot.png)  
 
 ## ✨ Destaques
 - 🎮 Controle por **teclado** ou **mouse**
